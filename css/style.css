@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 1300px;
+}
+
+.image-banner {
+    filter: blur(0px);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(114, 137, 218, 0.4)), url(../images/moon.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;  
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dwork {
+    font-weight: bold;
+}
+
+.white-home{
+    background-color: white;
+    /* width: 100vw;
+    height: 300px; */
+}
+
+ul a{
+    /* font-weight: bold; */
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.white-home p {
+    margin: 20px 0px 0px;
+    padding: 20px 0px 60px;
+    font-size: 18px;
+}
+
+.info-home h1 {
+    letter-spacing: 20px;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.white-home h2{
+    padding: 20px 0px 0px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.info-home p {
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+.info-home {
+    
+    line-height: 0.8;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 700px;
+}
+
+.images-home {
+    display: flex;
+    justify-content: space-around;
+}
+
+.drink-home {
+    width: 100px;
+}
+
+.btn-menu {
+    padding: 10px;
+    width: 35px;
+}
+
+.logo-home {
+    padding: 10px;
+    color: white;
+    width: 35px;
+}

@@ -85,11 +85,11 @@ ul{
 }
 
 .images-home p {
-    text-shadow: 2px 2px 1px rgb(104, 104, 104);
-    color: #7289DA;
+    /* text-shadow: 2px 2px 1px rgb(104, 104, 104);
+    color: #7289DA; */
     text-align: center;
     font-size: 25px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .tower-home{

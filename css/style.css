@@ -84,7 +84,30 @@ ul{
     height: 763px;
 }
 
+.images-home p {
+    text-shadow: 2px 2px 1px rgb(104, 104, 104);
+    color: #7289DA;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tower-home{
+    width: 850px;
+}
+
+.sobre-home {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-home {
+    text-align: center;
+}
+
 .images-home {
+    padding: 40px 0px 0px;
     display: flex;
     justify-content: space-around;
 }

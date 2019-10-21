@@ -14,6 +14,7 @@ body{
 }
 
 .image-banner {
+    
     filter: blur(0px);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(114, 137, 218, 0.4)), url(../images/moon.jpg);
     background-repeat: no-repeat;
@@ -28,6 +29,7 @@ body{
 }
 
 .white-home{
+    
     background-color: white;
     /* width: 100vw;
     height: 300px; */
@@ -81,7 +83,8 @@ ul{
     display: flex;
     align-items: center;
     color: white;
-    height: 763px;
+    /* height: 763px; */
+    height: 74vh;
 }
 
 .images-home p {
@@ -126,3 +129,8 @@ ul{
     color: white;
     width: 35px;
 }
+
+.estudar h2{
+    padding: 80px 0px 0px ;
+}
+    

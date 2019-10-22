@@ -10,7 +10,7 @@ body{
 
 .container{
     margin: auto;
-    width: 1300px;
+    width: 1200px;
 }
 
 .image-banner {
@@ -22,6 +22,16 @@ body{
     height: 100vh;  
     background-size: cover;
     background-attachment: fixed;
+}
+
+.professores ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.professores img {
+    border-radius: 120px;
 }
 
 .dwork {
@@ -54,19 +64,20 @@ nav ul{
 }
 
 .white-home p {
-    margin: 20px 0px 0px;
-    padding: 20px 0px 60px;
+    
+    padding: 40px 0px 0px;
     font-size: 18px;
 }
 
 .info-home h1 {
+    line-height: 85px;
     letter-spacing: 20px;
     font-weight: bold;
     font-size: 80px;
 }
 
 .white-home h2{
-    padding: 20px 0px 0px;
+    padding: 60px 0px 0px;
     font-weight: bold;
     font-size: 40px;
 }
@@ -96,6 +107,7 @@ nav ul{
 }
 
 .tower-home{
+    padding: 60px 0px 40px;
     width: 850px;
 }
 
@@ -106,11 +118,12 @@ nav ul{
 }
 
 .card-home {
+    padding: 60px 0px 40px;
     text-align: center;
 }
 
 .images-home {
-    padding: 40px 0px 0px;
+    padding: 60px 0px 0px;
     display: flex;
     justify-content: space-around;
 }
@@ -144,6 +157,15 @@ footer ul{
 }
 
 .estudar h2{
-    padding: 80px 0px 0px ;
+    text-align: center;
+    padding: 60px 0px 0px ;
+}
+
+.professores h2 {
+    text-align: center;
+    padding: 60px 0px 0px ;
 }
     
+.professores ul {
+    padding: 60px 0px 0px;
+}

@@ -40,9 +40,9 @@ body{
     padding: 60px 0px 0px;
 }
 
-.professores ul p{
+/* .professores ul p{
     line-height: 0.05;
-}
+} */
 
 .professores ul {
     
@@ -194,7 +194,7 @@ footer ul{
     
 
 .professores li{
-    
+        
     display: flex;
     flex-direction: column;
     align-items: center;

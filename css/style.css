@@ -30,6 +30,7 @@ body{
 }
 
 .cursos-home {
+    padding: 0px 0px 74px;
     background-color: #8C9EFF;
 }
 
@@ -220,25 +221,85 @@ footer ul{
     font-size: 18px ;
     position: relative;
     color:white;
-    top: 225px;
-    left: 350px;
-
+    top: 149px;
+    left: 224px;
 }
 
+
+
 .card-cursos-home {
+    text-align: center;
     padding: 40px 0px 0px;
 }
 
 
 .html-card-cursos-home {
-   
-    border-radius: 5px;
+    padding: ;
+    border-radius: 5px 5px 0px 0px;
     /* border: solid 1px black; */
-    /* background-image: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/450/250/?=landscape"); */
-    height: 250px;
-    width: 450PX;
-    background-image: url(../images/html_css.png);
+    background-image: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/350/200/?=landscape");
+    height: 200px;
+    width: 350PX;
+    /* background-image: url("http://placehold.it/200x350"); */
     background-repeat: no-repeat;
     background-size: cover;
     
 }
+
+.display-card-home {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.card-cursos-home p{
+    text-align: center;
+    padding: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 300PX;
+    font-size: 18px;
+}
+
+.curso-info-home h3{
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.curso-info-home {
+    border-radius: 0px 0px 5px 5px;
+    background-color: white;
+    color: black;
+    
+}
+
+
+
+
+
+.btn-medium {
+    position: relative;
+    top: -11px;
+    left: 0;
+   font-size: 20px;
+    text-decoration: none;
+    background-color: #8C9EFF;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: lighter;
+    
+  }
+  
+  .btn-medium:hover {
+      transition: 0.3s;
+    opacity: 1;
+    text-decoration: none;
+    background-color: white;
+    color: #8C9EFF;
+    border: 1px solid #8C9EFF;
+  }
